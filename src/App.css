@@ -1,0 +1,43 @@
+*, *::before, *::after {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url("./assets/fonts/GreatVibes-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url( "./assets/fonts/Orbitron-VariableFont_wght.ttf");
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(255, 255, 242);
+  display: flex;
+  flex-direction: column;
+  color: rgb(56, 56, 56);
+  font-family: Orbitron, sans-serif;
+  --primary: rgb(80, 120, 80);
+  align-items: center;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
